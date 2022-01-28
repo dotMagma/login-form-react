@@ -18,7 +18,7 @@ body {
 }
 
 #content #side-form form {
-  width: 550px;
+    width: 550px;
 }
 
 #content #side-form #options {
@@ -36,7 +36,7 @@ body {
 }
 
 #content #side-form #sign-in {
-    margin-top: 20px;
+    margin-top: 15px;
 
     display: flex;
     align-items: center;
@@ -49,4 +49,21 @@ body {
     font-weight: 400;
 
     color: var(--primary-color);
+}
+
+@media only screen and (max-width: 1200px) {
+    #content #side-img {
+        display: none;
+    }
+
+    #content #side-form {
+      width: 100%;
+    }
+
+    #content #side-form form {
+      background-color: transparent;
+      
+      padding: 0;
+      margin: 50px 20px;
+    }
 }

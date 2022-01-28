@@ -66,3 +66,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--text-base);
 }
+
+.input .eye {
+    width: 20px;
+    height: 20px;
+
+    outline: 0;
+    border: 0;
+
+    background-image: url('../images/eye.svg');
+    background-color: transparent;
+
+    margin-right: 10px;
+
+    cursor: pointer;
+}

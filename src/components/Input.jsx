@@ -1,8 +1,13 @@
+import react, { createElement } from 'react';
 import React from 'react';
 
 import './css/Input.css';
 
 function Input(props) {
+
+    var eye;
+    if (props.type == 'password') eye = createElement('button', {type: 'button', className: 'eye'});
+
     return (
         <>
             <label htmlFor={props.id} className="input-label">
@@ -15,6 +20,7 @@ function Input(props) {
                     id={props.id}
                     placeholder={props.children}
                 />
+                {eye}
             </div>
         </>
     );
