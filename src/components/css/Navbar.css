@@ -1,0 +1,10 @@
+nav #logo {
+    background: url('../images/logo.svg');
+
+    width: 115px;
+    height: 28px;
+
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}

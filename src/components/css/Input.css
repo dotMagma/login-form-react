@@ -1,0 +1,68 @@
+.input-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    color: var(--text-base);
+
+    margin-top: 20px;
+
+    display: block;
+}
+
+.input {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+}
+
+.input:focus-within {
+    border-color: var(--primary-color);
+}
+
+.email-img {
+    background-image: url('../images/mail.svg');
+}
+
+.email-img:focus-within {
+    background-image: url('../images/mail-focus.svg');
+}
+
+.lock-img {
+    background-image: url('../images/lock.svg');
+}
+
+.lock-img:focus-within {
+    background-image: url('../images/lock-focus.svg');
+}
+
+.input input {
+    background-color: transparent;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    outline: 0;
+    border: 0;
+
+    color: var(--text-base);
+
+    height: 40px;
+
+    padding: 0 10px 0 40px;
+
+    flex: 1;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--text-base);
+}

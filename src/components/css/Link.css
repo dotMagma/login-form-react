@@ -1,0 +1,12 @@
+.link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+
+    color: var(--primary-color);
+
+    text-decoration: none;
+
+    cursor: pointer;
+}

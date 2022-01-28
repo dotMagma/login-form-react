@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+
+    margin-bottom: 10px;
+}
+
+.header .title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header .title .title-img {
+    display: inline-block;
+
+    width: 24px;
+    height: 24px;
+
+    margin-right: 10px;
+}
+
+.log-in-img {
+    background: url('../images/log-in.svg');
+}
+
+.header .title h1 {
+    display: inline-block;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+
+    color: var(--text-title);
+}
+
+.header p {
+    display: block;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    color: var(--text-base);
+
+    margin: 5px 0 10px 0;
+}
