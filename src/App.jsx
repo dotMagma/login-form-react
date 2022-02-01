@@ -46,7 +46,7 @@ function App() {
                             <Link href="#">Esqueci minha senha</Link>
                         </div>
                         <div id="send">
-                            <Button type="submit" onClick={() => alert('Olá!')}>
+                            <Button type="submit" onClick={null}>
                                 Entrar
                             </Button>
                         </div>
