@@ -1,12 +1,11 @@
 import react, { createElement } from 'react';
-import React from 'react';
 
 import './css/Input.css';
 
 function Input(props) {
 
     var eye;
-    if (props.type == 'password') eye = createElement('button', {type: 'button', className: 'eye'});
+    if (props.type === 'password') eye = createElement('button', {type: 'button', className: 'eye'});
 
     return (
         <>
