@@ -1,4 +1,4 @@
-import react, { createElement } from 'react';
+import React, { createElement } from 'react';
 
 import './css/Input.css';
 
